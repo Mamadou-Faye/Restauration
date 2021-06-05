@@ -25,7 +25,7 @@ if(isset($_POST['submit'])){
     <!-- <div class="container-fluid">
         <footer>Copyright@UVS 2019  mamadou.faye18@uvs.edu.sn Tel: 773827653</footer>
     </div> -->
-<section id="connexion">
+<section id="connexion" class="login-connect">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-4 col-xs-4"></div>

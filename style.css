@@ -1,5 +1,5 @@
 #styles{
-    background-image:url("img/image10.jpg");
+    background-image:url("img/img34.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -124,18 +124,18 @@ table{
     font-size:bold;
     color:blue;
 }
-/*.myheader{
+.myheader{
     width: 100%;
-    height: 600px;
+    height: 68rem;
     display: inline-block;
     text-align: center;
-    background-image: url("img/23.jpg");
+    background-image: url("img/11.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
-}*/
+}
 .myheader .myheader-hello{
     font-size: 25px;
     font-weight: 800;
@@ -235,8 +235,10 @@ table{
 }
 .myfooter{
     text-align: center;
-    padding: 1.5em;
+    padding: 3rem;
     background-color: #000000;
+    position: relative;
+    bottom: 0;
 }
 .myfooter .footer-copyright{
     color: #ffffff;
@@ -273,4 +275,11 @@ table{
     font-family: arial;
     font-style: normal;
     justify-content: flex-start;
+}
+
+/*Phase de refonte de mon projet*/
+
+.login-connect{
+  padding: 10rem;
+  margin: 1rem;
 }

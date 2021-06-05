@@ -37,7 +37,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="mynavbar">
 						<ul class="nav navbar-nav">
-							<li class="nav-item active"><a href="a-propos.php?id=1#a-propos" class="btn btn-link">a-propos</a></li>
+							<li class="nav-item active"><a href="a-propos.php?id=1" class="btn btn-link">a-propos</a></li>
 							<li class="nav-item dropdown">
 								<a href="#" class="btn btn-link dropdown-toggle" data-toggle="dropdown">menu
 									<span class="caret"></span>
@@ -51,7 +51,7 @@
 							</li>
 							<li class="nav-item"><a href="services.php?id=6" class="btn btn-link">services</a></li>
 							<li class="nav-item"><a href="contacts.php?id=7" class="btn btn-link">contacts</a></li>
-							<li class="nav-item"><a href="nos-clients.php?id=8" class="btn btn-link">nos-clients</a></li>
+							<li class="nav-item"><a href="nos-clients.php?" class="btn btn-link">nos-clients</a></li>
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li class="nav-item"><a href="login.php?id=9" class="btn btn-link"><span class="glyphicon glyphicon-user"></span>login</a></li>

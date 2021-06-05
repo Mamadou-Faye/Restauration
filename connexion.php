@@ -45,7 +45,7 @@ include "index.php";
     //     $email = test_input($_POST['email']);
     // }
 ?>
-<section id="inscription" style="padding-top: 10em;">
+<section id="inscription" style="padding: 10rem;" >
     <div class='container-fluid'>
         <div class='row row-inscription'>
             <div class='col-sm-3 col-xs-3'></div>
