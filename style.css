@@ -1,0 +1,276 @@
+#styles{
+    background-image:url("img/image10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    position:relative;
+    background-attachment: fixed;
+}
+/* .navbar{
+    position:fixed;
+} */
+#monImg{
+    width: 100%;
+    height:100%;
+    margin:auto;
+}
+#salut{
+    font-size:40px;
+    font-family:arial;
+    margin:auto;
+    text-align:center;
+}
+#reserve{
+    width:100%;
+    height:100%;
+    margin:auto;
+}
+#page1{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page2{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+/* .thumbnail{
+    width:100%;
+    height:100%;
+    margin:auto;
+} */
+#page3{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page4{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page5{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page6{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page7{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page8{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page9{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page10{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page11{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+#page12{
+    width:100%;
+    height:410px;
+    margin:auto;
+}
+/* footer{
+    font-size:15px;
+    font-family:arial;
+    text-align:center;
+    position:fixed;
+
+} */
+#contact{
+    font-family:arial;
+    text-align:center;
+}
+#formulaire{
+    margin-bottom:300px;
+}
+#titre_login{
+    font-family:arial;
+    text-align:center;
+}
+#mes_actions{
+    text-decoration:none;
+    color:orange;
+}
+#controller{
+    /* color:blue; */
+    font-family:arial;
+    font-size:20px;
+}
+table{
+    border:1px solid black;
+}
+.total{
+    font-size:bold;
+    color:blue;
+}
+/*.myheader{
+    width: 100%;
+    height: 600px;
+    display: inline-block;
+    text-align: center;
+    background-image: url("img/23.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}*/
+.myheader .myheader-hello{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: arial;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 200px
+}
+.myheader .myheader-present{
+    font-size: 40px;
+    font-family: arial;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    text-orientation: initial;
+    margin-top: 10px;
+}
+.myheader .myheader-button-link{
+    width: auto;
+    margin-top: 40px;
+}
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav .navbar-toggle {
+  padding: 0.75rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #fed136;
+  border: 0;
+}
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-nav .nav-item .btn-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .btn-link.active, #mainNav .navbar-nav .nav-item .btn-link:hover {
+  color: #fed136;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.5rem;
+  color: #000000;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    height: 2rem;
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+  }
+  #mainNav.navbar-shrink .navbar-brand svg,
+#mainNav.navbar-shrink .navbar-brand img {
+    height: 1.5rem;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+.myfooter{
+    text-align: center;
+    padding: 1.5em;
+    background-color: #000000;
+}
+.myfooter .footer-copyright{
+    color: #ffffff;
+    font-size: 15px;
+    font-style: initial;
+    font-family: arial;
+    font-weight:normal;
+}
+.myfooter .footer-reseau{
+    color: #ffffff;
+    size: 15px;
+    word-spacing: 1.0em; 
+}
+.myfooter .footer-description{
+    color: #ffffff;
+    font-size: 15px;
+    font-style: initial;
+    font-family: arial;
+    font-weight:normal;
+}
+.row-inscription{
+    margin: auto;
+    margin-top: 10em;
+    text-align: center;
+    padding-top: 20em;
+}
+.section-a-propos{
+    padding: 5.0em;
+    text-align: center;
+}
+.section-a-propos .row-a-propos{
+    color: #000000;
+    font-size: 15px;
+    font-family: arial;
+    font-style: normal;
+    justify-content: flex-start;
+}
