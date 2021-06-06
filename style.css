@@ -340,13 +340,15 @@ table{
   margin: 1rem;
 }
 
-.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.livraison {
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.livraison,
+ .myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.paiement{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.livraison img.img-livraison {
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.livraison img.img-livraison,
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.paiement img.img-paiement {
   border-radius: 50%;
   width: 80px;
   height: 80px;

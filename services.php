@@ -89,7 +89,7 @@ if(isset($_POST['submit'])){
                         <span>Livraison gratuite</span>
                     </div>
                     <div class="paiement">
-                        <img src="">
+                        <img class="img-paiement" src="img/img10.jpg">
                         <span>Paiement en ligne</span>
                     </div>
                 </div>
