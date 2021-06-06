@@ -34,6 +34,17 @@ CREATE TABLE clients (
 ) ENGINE = InnoDB;
 
 
+-- table réservation ajouter dans les services
+CREATE TABLE reservation (
+	idReservation int(100) PRIMARY KEY NOT NULL,
+	nombre_place int(200) NOT NULL,
+	dateReserve date NOT NULL,
+	heureReserve time NOT NULL,
+	commentaire varchar(255) NOT NULL
+);
+
+
+
 -- Création de la table pour la list du menu
 
 CREATE TABLE menu (
