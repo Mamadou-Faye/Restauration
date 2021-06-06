@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Restauration</title>
+		<title>Restauration | SENRESTO</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<script src="jquery/jquery-3.3.1.js"></script>
@@ -33,7 +33,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a href="#styles" class="navbar-brand">SiteResto</a>
+						<a href="#styles" class="navbar-brand">Sen~Resto</a>
 					</div>
 					<div class="collapse navbar-collapse" id="mynavbar">
 						<ul class="nav navbar-nav">

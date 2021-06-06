@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
 }
 
 ?>
-<section id="services" style="padding-top: 10em;">
+<section id="services" class="myServices">
     <div class='container-fluid'>
         <div class='row row-sevices'>
             <div class='col-sm-4 col-xs-4'><br/>
@@ -32,12 +32,12 @@ if(isset($_POST['submit'])){
             </div>
             <div class='col-sm-4 col-xs-4'>
                 <header id='mon_header_reserve'>
-                    <h3>Réserver ici</h3>
+                    <h1>A votre service</h1>
                 </header>
-                <section>
-                    <form action="" method="post">
-                        <fieldset>
-                            <legend>Tables des réservations !</legend>
+                <div class="form-reservation">
+                    <form action="" method="post" class="myform">
+                        <fieldset class="myfields">
+                            <legend class="mylegend">Reservation en ligne</legend>
                             <div class='input-group'>
                                 <span class='input-group-addon'><i class='glyphicon glyphicon-user'></i></span>
                                 <input type='number' id='clients' name='person' class='form-control' placeholder='nombre de places (seulement en chiffre)'>
@@ -57,7 +57,7 @@ if(isset($_POST['submit'])){
                             </div>
                         </fieldset><br/>
                         <div class='input-group'>
-                            <input type="submit" name="submit" value="envoyer">
+                            <input class="btnSubmitEnv" type="submit" name="submit" value="envoyer">
                         </div>
                     </form>
                     <?php if(isset($_GET['msg4'])){?>
@@ -74,10 +74,14 @@ if(isset($_POST['submit'])){
                         <?php echo $_GET['msg5'];
                     }
                     ?></em></p>
-                </section>
+                </div>
             </div>
             <div class='col-sm-4 col-xs-4'>
-                <p><em><a href='deconnexion2.php'>Déconnexion</a></em></p>
+                <div class="text-services">
+                    Notre restaurant peut accueillir jusqu'à 150 personnes.
+                    Les locaux sont également adaptés pour des événements de toutes sortes.
+                    En été, nous vous chouchoutons sur notre grande terrasse extérieure.
+                </div>
             </div>
         </div>
     </div>
