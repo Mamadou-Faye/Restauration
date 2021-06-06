@@ -82,6 +82,17 @@ if(isset($_POST['submit'])){
                     Les locaux sont également adaptés pour des événements de toutes sortes.
                     En été, nous vous chouchoutons sur notre grande terrasse extérieure.
                 </div>
+
+                <div class="livraison-paiement">
+                    <div class="livraison">
+                        <img class="img-livraison" src="img/velo1.jpg">
+                        <span>Livraison gratuite</span>
+                    </div>
+                    <div class="paiement">
+                        <img src="">
+                        <span>Paiement en ligne</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

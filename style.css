@@ -332,3 +332,31 @@ table{
   font-size: 20px;
   color: #ffffff; 
 }
+
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.livraison {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.livraison img.img-livraison {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.livraison span,
+.myServices .container-fluid .row .col-sm-4 div.livraison-paiement div.paiement span {
+  color: #ffffff;
+  font-family: arial;
+  font-size: 20px;
+  margin-top: .2rem;
+}
+
