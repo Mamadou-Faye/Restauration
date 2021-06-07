@@ -263,19 +263,23 @@ table{
     bottom: 0;
 }
 .myfooter .footer-copyright{
-    color: #ffffff;
+    color: #777;
     font-size: 15px;
     font-style: initial;
     font-family: arial;
     font-weight:normal;
 }
 .myfooter .footer-reseau{
-    color: #ffffff;
-    size: 15px;
     word-spacing: 1.0em; 
 }
+
+.myfooter .footer-reseau a {
+  color: #777;
+  font-size: 25px;
+}
+
 .myfooter .footer-description{
-    color: #ffffff;
+    color: #777;
     font-size: 15px;
     font-style: initial;
     font-family: arial;

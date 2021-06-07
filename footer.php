@@ -5,9 +5,9 @@
 				<span>copyright&copy; nom restaurant</span>
 			</div>
 			<div class="col-sm-4 col-xs-4 footer-reseau">
-				<a href="#" class=""><span class="glyphicon glyphicon-home"></span></a>
-				<a href="#"><span class="glyphicon glyphicon-user"></span></a>
-				<a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+				<a href="#" class=""><span class="ti-facebook"></span></a>
+				<a href="https://www.github.com/Mamadou-Faye"><span class="ti-github"></span></a>
+				<a href="#"><span class="ti-linkedin"></span></a>
 			</div>
 			<div class="col-sm-4 col-xs-4 footer-description">
 				<span>description à droite</span>
