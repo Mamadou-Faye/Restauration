@@ -56,7 +56,7 @@
 						</ul>
 						<ul class="nav navbar-nav navbar-right">
 							<li class="nav-item"><a href="login.php?id=9" class="btn btn-link"><span class="glyphicon glyphicon-user"></span>login</a></li>
-							<li class="nav-item"><a href="connexion.php?id=10" class="btn btn-link"><span class="glyphicon glyphicon-pencil"></span>s'inscrire</a></li>
+							<li class="nav-item"><a href="inscription.php?id=10" class="btn btn-link"><span class="glyphicon glyphicon-pencil"></span>s'inscrire</a></li>
 						</ul>
 					</div>
 				</div>

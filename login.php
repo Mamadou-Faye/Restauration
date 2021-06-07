@@ -3,13 +3,12 @@ session_start();
 $bdd = new PDO('mysql:host=127.0.0.1;dbname=restaurant', 'root', '');
 
 require "index.php";
-$name = " ";
+
 $login = "fayem7409@gmail.com";
 $mdp = "fayem@20";
 if(isset($_POST['submit'])){
-    if(!empty($_POST['login']) AND !empty($_POST['pwd']) AND !empty($_POST['nom'])){
-        if(isset($_POST['nom']) == $name && isset($_POST['login']) == $login && isset($_POST['pwd']) == $mdp){
-        $_SESSION['nom'] = $name;
+    if(!empty($_POST['login']) AND !empty($_POST['pwd'])){
+        if(isset($_POST['login']) == $login && isset($_POST['pwd']) == $mdp){
         $_SESSION['login'] = $login;
         $_SESSION['pwd'] = $mdp;
             header('location:nos-clients.php');
@@ -32,9 +31,6 @@ if(isset($_POST['submit'])){
             <div class="col-sm-4 col-xs-4">
                 <h2 id="titre_login"><em>Veillez remplir ce formulaire !</em></h2>
                 <form action="login.php" method="post">
-                    <div class="form-group">
-                        <input type="text" name="nom" id="nom" class="form-control" placeholder="Votre nom" autofocus>
-                    </div>
                     <div class="form-group">
                         <input type="email" name="login" id="email" class="form-control" placeholder="Votre email">
                     </div>

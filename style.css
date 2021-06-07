@@ -285,12 +285,10 @@ table{
     font-family: arial;
     font-weight:normal;
 }
-.row-inscription{
+/*.row-inscription{
     margin: auto;
-    margin-top: 10em;
     text-align: center;
-    padding-top: 20em;
-}
+}*/
 .section-a-propos{
     padding: 5.0em;
     text-align: center;
@@ -427,4 +425,8 @@ table{
 }
 .contact .form-contact span input:hover{
   background: #ffd77d;
+}
+
+.inscription {
+ 
 }
