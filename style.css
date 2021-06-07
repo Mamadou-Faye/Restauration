@@ -148,7 +148,8 @@ table{
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    position: relative;
+    position: sticky;
+    top: -70rem;
 }
 .myheader .myheader-hello{
     font-size: 25px;
@@ -171,6 +172,13 @@ table{
 .myheader .myheader-button-link{
     width: auto;
     margin-top: 40px;
+}
+
+.myheader .myheader-button-link .btn-primary {
+    background: #fed136;
+    outline: none;
+    cursor: pointer;
+    padding: 1.5rem 1rem;
 }
 #mainNav {
   padding-top: 1rem;
@@ -362,3 +370,57 @@ table{
   margin-top: .2rem;
 }
 
+/*Ma page de contacts*/
+/*mes contacts*/
+.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact h1{
+  font-family: Playfair Display, sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #6f6f6f;
+}
+.contact .form-contact p input{
+  width: 300px;
+  height: 30px;
+  border:none;
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  outline: none;
+  margin-bottom: 1rem;
+}
+.contact .form-contact p input:hover{
+  background: #ffd77d;
+}
+.contact .form-contact p textarea{
+  width: 300px;
+  height: 100px;
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  border:none;
+  outline: none;
+  color: #717171;
+}
+.contact .form-contact p textarea:hover{
+  background: #ffd77d;
+}
+.contact .form-contact span input{
+  /*width: 100px;
+  height: 60px;*/
+  padding: 15px 30px;
+  color: #fff;
+  background: #fed136;
+  font-family: Playfair Display, sans-serif;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  border:none;
+  border-radius: 10px;
+}
+.contact .form-contact span input:hover{
+  background: #ffd77d;
+}
